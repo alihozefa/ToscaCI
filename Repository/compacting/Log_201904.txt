@@ -1,0 +1,12 @@
+[Error] 17-Apr-19 4:02:19 PM: No application parameters were found. Use the 'ApplicationParameterTypeAttribute' to specify the assembly holding application parameters.
+[Exception] 17-Apr-19 4:02:19 PM: Tricentis.TCCore.Persistency.ApplicationParametersException: No application parameters were found. Use the 'ApplicationParameterTypeAttribute' to specify the assembly holding application parameters.
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParametersLoader.Load()
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParametersLoader.LoadApplicationParameters()
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParameters.get_Instance()
+[Error] 17-Apr-19 4:02:19 PM: Error loading application parameters, falling back to default.
+[Info] 17-Apr-19 4:02:25 PM: Compacting started
+[Info] 17-Apr-19 4:02:25 PM: 0/100 - Compacting Workspace
+[Info] 17-Apr-19 4:02:25 PM: Compacting Workspace - Defragmentation finished in 00:00:00.3586151, database size: 14163968
+[Info] 17-Apr-19 4:02:25 PM: -2147483648/-2147483648 - Recalculating index statistics
+[Info] 17-Apr-19 4:02:25 PM: Compacting Workspace - Recalculating Index Statistics finished in 00:00:00.0500503, database size: 14163968
+[Info] 17-Apr-19 4:02:25 PM: Compacting finished
