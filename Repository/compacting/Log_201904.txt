@@ -34,3 +34,26 @@
 [Info] 23-Apr-19 9:43:29 AM: 53/100 - Defragmenting Data - [estimated time left 9 s]
 [Info] 23-Apr-19 9:43:30 AM: 58/100 - Defragmenting Data - [estimated time left 8 s]
 [Info] 23-Apr-19 9:43:31 AM: 62/100 - Defragmenting Data - [estimated time left 7 s]
+[Info] 24-Apr-19 4:31:08 PM: 8/100 - Defragmenting Data - [estimated time left 13 s]
+[Info] 24-Apr-19 4:31:09 PM: 15/100 - Defragmenting Data - [estimated time left 12 s]
+[Info] 24-Apr-19 4:31:10 PM: 22/100 - Defragmenting Data - [estimated time left 11 s]
+[Error] 24-Apr-19 4:31:11 PM: No application parameters were found. Use the 'ApplicationParameterTypeAttribute' to specify the assembly holding application parameters.
+[Exception] 24-Apr-19 4:31:11 PM: Tricentis.TCCore.Persistency.ApplicationParametersException: No application parameters were found. Use the 'ApplicationParameterTypeAttribute' to specify the assembly holding application parameters.
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParametersLoader.Load()
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParametersLoader.LoadApplicationParameters()
+   at Tricentis.TCCore.Persistency.ApplicationEnvironment.ApplicationParameters.get_Instance()
+[Error] 24-Apr-19 4:31:11 PM: Error loading application parameters, falling back to default.
+[Info] 24-Apr-19 4:31:11 PM: 1/100 - Defragmenting Data - [estimated time left 14 s]
+[Info] 24-Apr-19 4:31:11 PM: 29/100 - Defragmenting Data - [estimated time left 10 s]
+[Info] 24-Apr-19 4:31:12 PM: 36/100 - Defragmenting Data - [estimated time left 9 s]
+[Info] 24-Apr-19 4:31:13 PM: 43/100 - Defragmenting Data - [estimated time left 8 s]
+[Info] 24-Apr-19 4:31:13 PM: Compacting started
+[Info] 24-Apr-19 4:31:14 PM: Compacting Workspace - Defragmentation finished in 00:00:00.4196666, database size: 13926400
+[Info] 24-Apr-19 4:31:14 PM: 49/100 - Defragmenting Data - [estimated time left 7 s]
+[Info] 24-Apr-19 4:31:14 PM: Compacting Workspace - Recalculating Index Statistics finished in 00:00:00.0504445, database size: 13926400
+[Info] 24-Apr-19 4:31:14 PM: Compacting finished
+[Info] 24-Apr-19 4:31:15 PM: 56/100 - Defragmenting Data - [estimated time left 6 s]
+[Info] 24-Apr-19 4:31:16 PM: 63/100 - Defragmenting Data - [estimated time left 5 s]
+[Info] 24-Apr-19 4:31:17 PM: 70/100 - Defragmenting Data - [estimated time left 4 s]
+[Info] 24-Apr-19 4:31:18 PM: 77/100 - Defragmenting Data - [estimated time left 3 s]
+[Info] 24-Apr-19 4:31:19 PM: 84/100 - Defragmenting Data - [estimated time left 2 s]
